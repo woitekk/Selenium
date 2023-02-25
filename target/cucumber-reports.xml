@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.718">
+    <testcase classname="Google Search feature" name="First google search" time="0.065">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I search for phrase "Cucumber"..........................................passed
+Then I see search results...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search feature" name="Second google search" time="0.016">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I search for phrase "Selenium"..........................................passed
+Then I see search results...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search feature" name="Search in google - outline scenario" time="0.015">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I search for phrase "Cucumber"..........................................passed
+Then I see search results...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search feature" name="Search in google - outline scenario 2" time="0.024">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I search for phrase "SDA"...............................................passed
+Then I see search results...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search feature" name="Search in google - outline scenario 3" time="0.011">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I search for phrase "Selenium"..........................................passed
+Then I see search results...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search feature" name="Search in google - outline scenario 4" time="0.008">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I search for phrase "Test Automation"...................................passed
+Then I see search results...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Search feature" name="Search in google - nothing found" time="0.007">
+        <system-out><![CDATA[Given Google page is opened.................................................passed
+When I click accept all button..............................................passed
+And I press enter button....................................................passed
+Then I don't see search results.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
